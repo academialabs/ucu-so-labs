@@ -1,13 +1,9 @@
 # Laboratorio 01:
-## Creación de Scripts en PowerShell para Automatizar Tareas Comunes del Sistema Operativo
-
----
+- Creación de Scripts en PowerShell para Automatizar Tareas Comunes del Sistema Operativo
 
 ## Objetivo:
 
-El objetivo de este laboratorio es que los estudiantes adquieran habilidades en la creación de scripts en PowerShell para automatizar tareas comunes del sistema operativo en entornos Windows. A través de este ejercicio, los estudiantes aprenderán a utilizar los comandos básicos de PowerShell, a manipular archivos y directorios, y a automatizar tareas repetitivas.
-
----
+- El objetivo de este laboratorio es que los estudiantes adquieran habilidades en la creación de scripts en PowerShell para automatizar tareas comunes del sistema operativo en entornos Windows. A través de este ejercicio, los estudiantes aprenderán a utilizar los comandos básicos de PowerShell, a manipular archivos y directorios, y a automatizar tareas repetitivas.
 
 ## Pre-Laboratorio:
 
@@ -16,8 +12,6 @@ Antes de comenzar el laboratorio, los estudiantes deben familiarizarse con los s
 1. **Introducción a PowerShell:** Los estudiantes deben repasar los comandos básicos de PowerShell, como `Get-ChildItem`, `New-Item`, `Copy-Item`, `Move-Item`, etc.
 2. **Sintaxis de los scripts de PowerShell:** Los estudiantes deben comprender la estructura básica de un script en PowerShell, incluyendo la declaración del intérprete (`#Requires -Version 5.1`), comentarios, variables, condicionales, bucles, etc.
 3. **Entorno de desarrollo:** Los estudiantes deben tener acceso a un entorno Windows con PowerShell instalado para escribir y ejecutar scripts.
-
----
 
 ## Laboratorio:
 
@@ -36,8 +30,6 @@ Antes de comenzar el laboratorio, los estudiantes deben familiarizarse con los s
    - El script deberá ejecutarse de forma periódica utilizando la tarea programada de Windows.
    - Se animará a los estudiantes a utilizar cmdlets como `Get-WmiObject` para obtener información sobre el espacio en disco.
 
----
-
 ## Post-Laboratorio:
 
 Después de completar el laboratorio, los estudiantes deben realizar las siguientes actividades:
@@ -45,8 +37,6 @@ Después de completar el laboratorio, los estudiantes deben realizar las siguien
 1. **Prueba y depuración:** Los estudiantes deben probar sus scripts en diferentes escenarios y depurar cualquier error que encuentren.
 2. **Documentación:** Los estudiantes deben documentar sus scripts explicando su funcionamiento, variables utilizadas, y cualquier otra información relevante.
 3. **Experimentación adicional:** Se alienta a los estudiantes a experimentar con otros cmdlets de PowerShell y a desarrollar nuevos scripts para automatizar tareas adicionales.
-
----
 
 ## Conclusión:
 

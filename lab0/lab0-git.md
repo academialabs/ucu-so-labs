@@ -1,10 +1,10 @@
-# Laboratorio 00:
-## Básico de Git y GitHub para Estudiantes de Primer Semestre
+# Laboratorio 0:
+- Básico de Git y GitHub 101
 
-### Objetivo:
-El objetivo de este laboratorio es introducir a los estudiantes de primer semestre al uso básico de Git y GitHub. Los estudiantes aprenderán los comandos de Git más comunes y practicarán el trabajo con repositorios remotos en GitHub.
+## Objetivo:
+- El objetivo de este laboratorio es introducir a los estudiantes en el uso básico de Git y GitHub. Los estudiantes aprenderán los comandos de Git más comunes y practicarán el trabajo con repositorios remotos en GitHub.
 
-### Pre Laboratorio:
+## Pre Laboratorio:
 Investigar los siguientes comandos de Git:
 
 1. `git init`: Inicializa un nuevo repositorio Git.
@@ -16,7 +16,7 @@ Investigar los siguientes comandos de Git:
 7. `git checkout`: Cambia entre branches o restaura archivos.
 8. `git merge`: Fusiona cambios de un branch a otro.
 
-### Laboratorio:
+## Laboratorio:
 
 1. **Inicializar un Repositorio Local:**
    - Usa el comando `git init` para inicializar un nuevo repositorio en un directorio vacío.
@@ -36,7 +36,7 @@ Investigar los siguientes comandos de Git:
    - Vuelve al branch principal con `git checkout master`.
    - Fusiona los cambios del nuevo branch a master usando `git merge nombre_branch`.
 
-### Post Laboratorio:
+## Post Laboratorio:
 
 1. **Crear una Cuenta en GitHub:**
    - Investigar cómo crear una cuenta en GitHub si aún no tienes una.
@@ -51,5 +51,5 @@ Investigar los siguientes comandos de Git:
 4. **Explorar Interfaz de GitHub:**
    - Explora la interfaz de usuario de GitHub para familiarizarte con las diferentes funciones y características.
 
-### Notas:
-Asegúrate de seguir las instrucciones paso a paso y de comprender el propósito de cada comando y acción realizada en el laboratorio. No dudes en consultar la documentación de Git y GitHub si encuentras alguna dificultad.
+## Notas:
+- Asegúrate de seguir las instrucciones paso a paso y de comprender el propósito de cada comando y acción realizada en el laboratorio. No dudes en consultar la documentación de Git y GitHub si encuentras alguna dificultad.

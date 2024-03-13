@@ -1,13 +1,9 @@
 # Laboratorio 01:
-## Creación de Scripts de Shell para Automatizar Tareas Comunes del Sistema Operativo
-
----
+- Creación de Scripts de Shell para Automatizar Tareas Comunes del Sistema Operativo
 
 ## Objetivo:
 
-El objetivo de este laboratorio es que los estudiantes adquieran habilidades en la creación de scripts de shell para automatizar tareas comunes del sistema operativo. A través de este ejercicio, los estudiantes aprenderán a utilizar los comandos básicos de shell, a manipular archivos y directorios, y a automatizar tareas repetitivas en un entorno Unix/Linux.
-
----
+- El objetivo de este laboratorio es que los estudiantes adquieran habilidades en la creación de scripts de shell para automatizar tareas comunes del sistema operativo. A través de este ejercicio, los estudiantes aprenderán a utilizar los comandos básicos de shell, a manipular archivos y directorios, y a automatizar tareas repetitivas en un entorno Unix/Linux.
 
 ## Pre-Laboratorio:
 
@@ -17,8 +13,6 @@ Antes de comenzar el laboratorio, los estudiantes deben familiarizarse con los s
 2. **Sintaxis de los scripts de shell:** Los estudiantes deben comprender la estructura básica de un script de shell, incluyendo la declaración del intérprete (`#!/bin/bash`), comentarios, variables, condicionales, bucles, etc.
 3. **Conceptos básicos de programación:** Los estudiantes deben tener conocimientos básicos de programación, incluyendo variables, operadores, condicionales y bucles.
 4. **Entorno de desarrollo:** Los estudiantes deben tener acceso a un entorno Unix/Linux con un editor de texto (como Vim, Emacs o Nano) para escribir y ejecutar scripts de shell.
-
----
 
 ## Laboratorio:
 
@@ -37,8 +31,6 @@ Antes de comenzar el laboratorio, los estudiantes deben familiarizarse con los s
    - El script deberá ejecutarse de forma periódica utilizando la herramienta `cron`.
    - Se animará a los estudiantes a utilizar comandos como `df` y `awk` para obtener información sobre el espacio en disco.
 
----
-
 ## Post-Laboratorio:
 
 Después de completar el laboratorio, los estudiantes deben realizar las siguientes actividades:
@@ -46,8 +38,6 @@ Después de completar el laboratorio, los estudiantes deben realizar las siguien
 1. **Prueba y depuración:** Los estudiantes deben probar sus scripts en diferentes escenarios y depurar cualquier error que encuentren.
 2. **Documentación:** Los estudiantes deben documentar sus scripts explicando su funcionamiento, variables utilizadas, y cualquier otra información relevante.
 3. **Experimentación adicional:** Se alienta a los estudiantes a experimentar con otros comandos de shell y a desarrollar nuevos scripts para automatizar tareas adicionales.
-
----
 
 ## Conclusión:
 
