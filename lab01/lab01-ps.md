@@ -1,4 +1,5 @@
-# Laboratorio de Clases: Creación de Scripts en PowerShell para Automatizar Tareas Comunes del Sistema Operativo
+# Laboratorio 01:
+## Creación de Scripts en PowerShell para Automatizar Tareas Comunes del Sistema Operativo
 
 ---
 

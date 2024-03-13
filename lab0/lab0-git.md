@@ -1,4 +1,5 @@
-## Laboratorio Básico de Git y GitHub para Estudiantes de Primer Semestre
+# Laboratorio 00:
+## Básico de Git y GitHub para Estudiantes de Primer Semestre
 
 ### Objetivo:
 El objetivo de este laboratorio es introducir a los estudiantes de primer semestre al uso básico de Git y GitHub. Los estudiantes aprenderán los comandos de Git más comunes y practicarán el trabajo con repositorios remotos en GitHub.
