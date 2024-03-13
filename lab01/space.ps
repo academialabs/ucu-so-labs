@@ -1,0 +1,11 @@
+# Umbral mínimo de espacio libre en disco (en MB)
+$umbral = 1000
+
+# Obtener el espacio disponible en disco en MB
+$espacio = (Get-WmiObject Win32_LogicalDisk | Where-Object {$_.DeviceID -eq 'C:'}).FreeSpace / 1MB
+
+# Verificar si el espacio disponible es menor que el umbral
+if ($espacio -lt $umbral) {
+    Write-Host "¡Advertencia! Espacio en disco inferior al umbral definido."
+    Write-Host "Espacio disponible: $espacio MB"
+}
