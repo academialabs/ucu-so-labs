@@ -1,0 +1,13 @@
+# Directorio de origen y destino para el respaldo
+   $origen = "C:\ruta\del\directorio\origen"
+   $destino = "C:\ruta\del\directorio\destino"
+
+   # Verificar si el directorio de destino existe, si no, crearlo
+   if (!(Test-Path -Path $destino)) {
+       New-Item -ItemType Directory -Path $destino | Out-Null
+   }
+
+   # Copiar archivos del directorio de origen al directorio de destino
+   Copy-Item -Path $origen\* -Destination $destino -Recurse
+
+   Write-Host "Respaldo completado en $destino"
