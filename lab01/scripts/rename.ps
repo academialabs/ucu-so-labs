@@ -1,0 +1,15 @@
+# Directorio donde se encuentran los archivos a renombrar
+$directorio = "C:\ruta\del\directorio"
+
+# Patrón de búsqueda para los archivos a renombrar
+$patron = "*.txt"
+
+# Nuevo nombre para los archivos
+$nuevo_nombre = "nuevo_nombre_"
+
+# Renombrar archivos que coincidan con el patrón
+Get-ChildItem -Path $directorio -Filter $patron | ForEach-Object {
+    $nuevo_nombre_archivo = $nuevo_nombre + $_.Name
+    Rename-Item -Path $_.FullName -NewName $nuevo_nombre_archivo
+    Write-Host "Archivo $($_.Name) renombrado como $nuevo_nombre_archivo"
+}
