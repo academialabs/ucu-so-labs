@@ -83,4 +83,4 @@ Este Dockerfile automatiza la creación de una imagen de Docker que contiene un 
 Una vez que la imagen se haya construido exitosamente, puedes ejecutar un contenedor basado en ella con el siguiente comando:
 
 ```bash
-docker run -d -p 80:80 mi-nginx-ucu
+docker run -d -p 8080:80 mi-nginx-ucu
