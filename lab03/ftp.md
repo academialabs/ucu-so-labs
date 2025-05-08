@@ -34,7 +34,7 @@ Este Dockerfile automatiza la creación de una imagen de Docker que contiene un 
     FROM ubuntu:24.04
 
     # Mantenedor (opcional)
-    MAINTAINER Tu Nombre <tu.correo@ejemplo.com>
+    MAINTAINER ucu-so-labs
 
     # Actualizar los repositorios e instalar el servidor FTP (vsftpd es una opción popular)
     RUN apt-get update && \
