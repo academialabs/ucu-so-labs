@@ -1,0 +1,1 @@
+Get-Process | Sort-Object -Property CPU -Descending | Format-Table -AutoSize Name, ID, CPU, WorkingSet
