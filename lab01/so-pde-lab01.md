@@ -8,7 +8,7 @@ El objetivo de este laboratorio es introducir a los estudiantes en el uso básic
 ### **Pre-Laboratorio**
 Antes de asistir a la clase, los estudiantes deben realizar las siguientes actividades:
 
-1. **Crear una cuenta en GitHub, GitLab o Bitbucket:**
+1. **Crear una cuenta en GitHub**
    - Si no tienen una cuenta, deben registrarse en una de estas plataformas.
    - Explorar la interfaz de la plataforma elegida y familiarizarse con sus características básicas.
 
