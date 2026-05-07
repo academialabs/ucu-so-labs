@@ -33,7 +33,7 @@ El laboratorio busca fortalecer habilidades de:
 
 Al finalizar el laboratorio el estudiante será capaz de:
 
-- Instalar y administrar MySQL y PostgreSQL
+- Instalar y administrar MySQL y/o PostgreSQL (Elegir una opción)
 - Comprender diferencias entre SQL y NoSQL
 - Implementar MongoDB y Redis
 - Utilizar Docker como plataforma de virtualización liviana
