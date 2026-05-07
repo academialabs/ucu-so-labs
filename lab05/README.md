@@ -36,7 +36,7 @@ Al finalizar el laboratorio el estudiante será capaz de:
 - Instalar y administrar MySQL y/o PostgreSQL (Elegir una opción)
 - Comprender diferencias entre SQL y NoSQL
 - Implementar MongoDB y Redis
-- Utilizar Docker como plataforma de virtualización liviana
+- Utilizar Docker como plataforma de virtualización liviana (Recomendado)
 - Administrar servicios Linux mediante systemctl
 - Configurar puertos y firewall
 - Gestionar usuarios y permisos
@@ -65,7 +65,7 @@ Al finalizar el laboratorio el estudiante será capaz de:
 | Modalidad | Descripción |
 |---|---|
 | Local | Instalación directamente en computador |
-| Docker | Contenedores de bases de datos |
+| Docker | Contenedores de bases de datos (recomendado) |
 | Azure VM | Ubuntu 24.04 desplegado en Azure |
 | Híbrido | Docker ejecutándose dentro de VM Azure |
 
