@@ -817,20 +817,7 @@ Simular:
 
 ---
 
-# Challenge 7 — Benchmark
-
-Comparar:
-
-| Tecnología | RAM | Velocidad | Persistencia |
-|---|---|---|---|
-| MySQL | | | |
-| PostgreSQL | | | |
-| MongoDB | | | |
-| Redis | | | |
-
----
-
-# Challenge 8 — DevOps
+# Challenge 7 — DevOps
 
 Crear estructura GitHub:
 
