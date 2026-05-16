@@ -1,5 +1,5 @@
 # Laboratorio Práctico  
-# DevOps Moderno con GitHub Actions o Azure DevOps  
+# DevOps Moderno con GitHub Actions y Azure DevOps  
 ## Automatización Real de Empaquetado, Pruebas y Despliegue en Azure Cloud
 
 ---
@@ -25,6 +25,7 @@ Al finalizar esta actividad, el estudiante será capaz de:
 - Integrar control de versiones con pipelines automatizados.
 - Aplicar buenas prácticas básicas de infraestructura y automatización.
 - Documentar técnicamente un proyecto DevOps real.
+- Implementar un CI/CD inicial sobre dos aplicaciones dummy de referencia.
 
 ---
 
@@ -52,7 +53,7 @@ El estudiante deberá:
 1. Crear un repositorio Git.
 2. Configurar un pipeline CI/CD usando:
    - GitHub Actions
-   - o Azure DevOps Pipelines.
+   - y Azure DevOps Pipelines (en modalidad comparativa o como desafío extra).
 3. Automatizar:
    - Validación del código.
    - Empaquetado de la aplicación.
@@ -92,23 +93,33 @@ Aplicación disponible públicamente
 
 ## Plataformas DevOps
 
-El estudiante deberá escoger UNA:
+El laboratorio se enfoca en:
 
-- GitHub Actions
-- Azure DevOps Pipelines
+- GitHub Actions (flujo principal recomendado).
+- Azure DevOps Pipelines (flujo alternativo/comparativo).
+
+Sugerencia docente:
+
+- Obligatorio: implementar el pipeline completo en una de las dos plataformas.
+- Recomendado: migrar el mismo flujo a la otra plataforma para comparar tiempos, sintaxis y experiencia de uso.
 
 ---
 
-# Aplicaciones Permitidas
+# Aplicaciones Dummy Recomendadas (par de ejemplos)
 
-Puede utilizar cualquiera de estas opciones simples:
+Para asegurar una experiencia homogénea, se recomienda trabajar con estas dos aplicaciones simples:
 
-- Página HTML estática.
-- NodeJS Express básico.
-- Python Flask.
-- NGINX sirviendo contenido estático.
-- Apache Web Server.
-- Docker básico opcional.
+1. **Dummy A — Sitio estático**
+   - `index.html` con mensaje "Hola Mundo DevOps".
+   - Despliegue en NGINX o Apache.
+2. **Dummy B — API mínima**
+   - NodeJS Express **o** Python Flask con endpoint `/health` retornando `200 OK`.
+   - Prueba automática simple al endpoint.
+
+Opcionales:
+
+- Docker básico.
+- Empaquetado ZIP/TAR para despliegue por SSH.
 
 ---
 
@@ -126,6 +137,15 @@ Recomendación:
   - 22
   - 80
   - 8080
+
+## Uso de Azure for Students (tier estudiantil)
+
+Si el estudiante posee correo institucional, se recomienda:
+
+1. Activar **Azure for Students**.
+2. Crear grupo de recursos específico para el laboratorio (por ejemplo `rg-lab06-devops`).
+3. Usar recursos de bajo costo (B1s/B2s) y apagar la VM fuera del horario de trabajo.
+4. Configurar alertas básicas de consumo para evitar agotar el crédito.
 
 ---
 
@@ -202,6 +222,13 @@ Ejemplos:
 - npm test
 - python test
 
+Flujo sugerido (mínimo):
+
+1. Trigger en `push` y `pull_request`.
+2. Instalación de dependencias.
+3. Ejecución de pruebas básicas.
+4. Generación del paquete.
+
 ### Empaquetar aplicación
 
 Ejemplos:
@@ -214,6 +241,11 @@ Ejemplos:
 
 Guardar el paquete generado.
 
+Plantillas de referencia:
+
+- GitHub Actions: `.github/workflows/ci.yml`
+- Azure DevOps: `azure-pipelines-ci.yml`
+
 ---
 
 ## Parte 4 — Configurar CD
@@ -224,6 +256,18 @@ Automatizar:
 - Copia de archivos.
 - Reinicio del servicio.
 - Validación de despliegue.
+
+Flujo sugerido (mínimo):
+
+1. Descargar artifact de CI.
+2. Copiar al servidor Ubuntu por SSH.
+3. Ejecutar script remoto de despliegue.
+4. Verificar `/health` o contenido HTML público.
+
+Plantillas de referencia:
+
+- GitHub Actions: `.github/workflows/cd.yml` (job dependiente de CI o `workflow_run`).
+- Azure DevOps: `azure-pipelines-cd.yml` (stage de deploy posterior al stage de build/test).
 
 ---
 
