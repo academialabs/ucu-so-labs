@@ -93,7 +93,7 @@ Aplicación disponible públicamente
 
 ## Plataformas DevOps
 
-El laboratorio se enfoca en:
+El laboratorio se centra en:
 
 - GitHub Actions (flujo principal recomendado).
 - Azure DevOps Pipelines (flujo alternativo/comparativo).
@@ -145,7 +145,9 @@ Si el estudiante posee correo institucional, se recomienda:
 1. Activar **Azure for Students**.
 2. Crear grupo de recursos específico para el laboratorio (por ejemplo `rg-lab06-devops`).
 3. Usar recursos de bajo costo (B1s/B2s) y apagar la VM fuera del horario de trabajo.
+   - Sugerencia: activar **Auto-shutdown** diario desde el portal de Azure (VM → Operations → Auto-shutdown).
 4. Configurar alertas básicas de consumo para evitar agotar el crédito.
+   - Sugerencia: crear alertas de presupuesto en **Cost Management + Billing**.
 
 ---
 
